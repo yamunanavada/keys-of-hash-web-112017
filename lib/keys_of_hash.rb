@@ -5,7 +5,7 @@ class Hash
 
     self.each do |key, value|
       if value == arguments
-        array.push(key.to_s)
+        array.push(key)
       end
     end
     array
