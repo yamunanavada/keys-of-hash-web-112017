@@ -1,5 +1,11 @@
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     # code goes here
-  end
+    array = []
+      if value == arguments
+        array.push(key)
+    end
+    return array
+
+  end 
 end
