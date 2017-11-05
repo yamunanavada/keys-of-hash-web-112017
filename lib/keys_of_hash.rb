@@ -3,7 +3,7 @@ class Hash
     # code goes here
     array = []
 
-    self.map do |key, value|
+    self.each do |key, value|
       if value == arguments
         array.push(key.to_s)
       end
