@@ -7,6 +7,6 @@ class Hash
         array.push(key.to_s)
       end
     end
-
+    array
   end
 end
